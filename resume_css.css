@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;600&display=swap');
+*{
+    
+    margin: 0;
+    font-family: inter, sans-serif;
+    font-size: 20px;
+}
+h2{
+    margin:0;
+    font-weight: 400;
+}
+.box{
+    background:  rgb(219, 224, 224);
+    border: 2px solid;
+    height: auto;
+    margin: 0% 10%;
+}
+.name{
+    font-weight: 60px;
+    font-size: 50px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    border-inline-end-color: #ccc;
+    background-color: #ccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+
+}
+@media screen and (max-width: 1020px ) {
+    .header{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .name{
+        font-weight: 50px;
+        font-size: 30px;
+    }
+    .header_left{
+        display: flex;
+        justify-content: center;
+        order: 2;
+    }
+    .header_right{
+        display: flex;
+        order: 1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+
+
+    }
+    
+}
+
+@media screen and (max-width: 375px ) {
+    *{
+        font-size: 15px;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .name{
+        font-weight: 25px;
+        font-size: 20px;
+    }
+    .header_left{
+        display: flex;
+        justify-content: center;
+        order: 2;
+    }
+    .header_right{
+        display: flex;
+        order: 1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+}
+
+.header_left{
+    padding-left: 10px;
+    text-align: start;
+}
+.header_right{
+    padding-left: 20px;
+    display: flex;
+    justify-content: left;
+    padding-left: 50px;
+}
+
+.image{
+    border-radius: 75px;
+    height: 100px;
+    width: 100px;
+}
+.carrer_head,  .edu_head, .skills_head,.project_head{
+    background: rgb(117, 117, 116);
+    color: rgb(255, 255, 255);
+    padding-left: 25px;
+  
+
+}
+
+.skills_body{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.project_body, .edu_body{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+.carrer_body{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
